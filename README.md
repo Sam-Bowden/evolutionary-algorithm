@@ -6,7 +6,7 @@ By default, this program is set to maximise f(x)=-x(x-1)(x-2)(x-3)(x-4). This ca
 
 I did this rewrite as I find it an effective way to learn new algorithms. As I had to translate the whole algorithm, it forced me to understand every line of its code.
 
-I also added a feature to allow the user to add custom parameters at runtime.
+I also added a feature to allow the user to define custom parameters at runtime.
 
 This rewrite is also a lot quicker than the Python version - 108ms down to 2ms at default settings on my machine :)
 
@@ -24,7 +24,7 @@ $ cargo build --release
 $ cd /target/release
 ```
 
-You can then run the executable "evo" with its default parameters. Try running it multiple times to see the solution returned varies per evolution.
+You can then run the executable "evo" with its default parameters. Try running it multiple times to see the solution varying each evolution.
 ```bash
 $ ./evo
 3.8170501705975353
